@@ -1,0 +1,47 @@
+$table-border-radius: 2px;
+$table-border-color: #c5cee5;
+
+.jb-table {
+  width: 100%;
+  border-spacing: 10px;
+  background-color: white;
+
+  // Table Border Radius
+  border-collapse: collapse;
+  border-radius: $table-border-radius;
+  border-style: hidden;
+  box-shadow: 0 0 0 1px $table-border-color, 0px 4px 4px rgba(0, 0, 0, 0.05);
+
+  td,
+  th {
+    border-top: 1px solid $table-border-color;
+    border-bottom: 1px solid $table-border-color;
+    padding: 8px;
+    text-align: left;
+    color: #333f5c;
+
+    img {
+      height: 100%;
+    }
+    &.row-center {
+      text-align: center;
+    }
+    &.row-right {
+      text-align: right;
+    }
+  }
+
+  th {
+    height: 30px;
+  }
+
+  td {
+    height: 60px;
+    overflow: hidden;
+    font-size: 14px;
+  }
+
+  .jb-table-row-selected {
+    background: #e9eafa;
+  }
+}

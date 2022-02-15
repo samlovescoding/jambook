@@ -1,0 +1,44 @@
+.jb-configuration-heading {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.jb-configuration {
+  margin-bottom: 20px;
+}
+.jb-configuration-label {
+  font-weight: 500;
+  color: #515b73;
+}
+.jb-configuration-help {
+  font-style: italic;
+  color: #929bb4;
+}
+.jb-configuration-input {
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #c5cee5;
+  outline: 0;
+  padding: 0px 20px;
+  font-size: 12px;
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #515b73;
+}
+.jb-configuration-divider {
+  height: 1px;
+  width: 100%;
+  background: #c5cee5;
+  margin-top: 40px;
+}
+.jb-configuration-button {
+  background: $primary;
+  color: white;
+  height: 40px;
+  padding: 0px 40px;
+  border-radius: 4px;
+  border: 0px;
+  font-family: "Roboto";
+  font-weight: 500;
+}

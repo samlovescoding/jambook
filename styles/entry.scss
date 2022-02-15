@@ -1,0 +1,21 @@
+.jb-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.jb-loader {
+  background-color: #e5e5e5;
+  height: 2px;
+  width: 287px;
+  margin-top: 12px;
+}
+
+.jb-loader-progress {
+  background-color: #4200ff;
+  height: 2px;
+  width: 0px;
+  transition: all 0.2s ease-in-out;
+}

@@ -1,0 +1,75 @@
+.jb-models-container {
+}
+
+.jb-models-card {
+  background: #ffffff;
+  border: 1px solid #c5cee5;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  margin-bottom: 40px;
+  display: flex;
+  padding: 30px;
+}
+
+.jb-models-card-information {
+  display: flex;
+  flex-direction: column;
+}
+
+.jb-models-card-information-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.jb-models-card-information-description {
+  width: 75%;
+  margin-bottom: 30px;
+}
+
+.jb-models-card-information-buttons {
+  margin-top: auto;
+  display: flex;
+}
+
+.jb-models-card-information-button {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $primary;
+  border: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 20px;
+  color: white;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: 500;
+
+  &:hover,
+  &:active {
+    background: $primary-hover;
+  }
+  &:focus {
+    background: $primary-focus;
+  }
+}
+
+.jb-models-card-meta {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.jb-models-card-meta-icon {
+  font-size: 72px;
+  line-height: 72px;
+  color: black;
+  margin-bottom: 10px;
+}
+.jb-models-card-meta-information {
+  align-self: flex-end;
+  font-size: 12px;
+  margin-right: 20px;
+}
