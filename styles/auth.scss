@@ -7,11 +7,52 @@
   gap: 20px;
 }
 .jb-form-group-auth {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  width: 400px;
 }
 
 .jb-form-group-auth-label {
+  display: block;
+  margin-bottom: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #515b73;
 }
 
 .jb-form-group-auth-input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 0px 8px;
+  background: #ffffff;
+  border: 1px solid #c5cee5;
+  box-sizing: border-box;
+  border-radius: 4px;
+  outline: 0;
+  &:focus {
+    border-color: $primary;
+  }
+}
+.jb-auth-btn {
+  background: $primary;
+  border-radius: 4px;
+  border: 0px;
+  height: 40px;
+  color: white;
+  margin-top: 20px;
+}
+.jb-auth-btn-link {
+  color: #515b73;
+  border-radius: 4px;
+  border: 0px;
+  height: 40px;
+  background: transparent;
+}
+.jb-auth-error {
+  color: rgb(255, 0, 89);
+  font-size: 14px;
+  text-align: center;
 }
